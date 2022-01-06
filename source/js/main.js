@@ -19,7 +19,7 @@
 async function getResponse() {
     let queue = 0;
 
-    let response = await fetch("data.json");
+    let response = await fetch(".data.json");
     let content = await response.json();
     function setData (title, firstPercent, secondPercent, photo) {
         animateText(".status__info__project-name", title);
