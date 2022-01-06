@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .--active {
-  background-color: #000;
+  background-color: #000 !important;
 }
 
 .--bold {
@@ -365,6 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
+  cursor: pointer;
 }
 
 .next-button {
@@ -374,6 +375,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   -webkit-transform: rotate(315deg);
           transform: rotate(315deg);
+  cursor: pointer;
 }
 
 .button-container {

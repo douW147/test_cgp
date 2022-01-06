@@ -102,7 +102,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 //  decorators
 
 .--active{
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 .--bold{
@@ -286,6 +286,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border-width: 0 2px 2px 0;
     padding: 8px;
     transform: rotate(135deg);
+    cursor: pointer;
 }
 
 .next-button{
@@ -294,6 +295,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border-width: 0 2px 2px 0;
     padding: 8px;
     transform: rotate(315deg);
+    cursor: pointer;
 }
 
 .button-container{

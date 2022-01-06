@@ -17,19 +17,19 @@ async function getResponse() {
         });
     }
     function setCarousel(queue) {
-        $(".carousel-span").removeClass("active");
+        $(".carousel-span").removeClass("--active");
         switch (queue) {
             case 0:
-                $("#carousel-span-1").addClass("active")
+                $("#carousel-span-1").addClass("--active")
                 break;
             case 1:
-                $("#carousel-span-2").addClass("active")
+                $("#carousel-span-2").addClass("--active")
                 break;
             case 2:
-                $("#carousel-span-3").addClass("active")
+                $("#carousel-span-3").addClass("--active")
                 break;
             case 3:
-                $("#carousel-span-4").addClass("active")
+                $("#carousel-span-4").addClass("--active")
                 break;
         
             default:
