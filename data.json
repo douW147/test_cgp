@@ -1,0 +1,26 @@
+[
+    {
+        "companyName": "Goddest project #1",
+        "firstPercent": "95%",
+        "secondPercent": "68%",
+        "companyPhoto": "./img/company1.png"
+    },
+    {
+        "companyName": "Goddest project #2",
+        "firstPercent": "96%",
+        "secondPercent": "78%",
+        "companyPhoto": "./img/companySubs1.jpg"
+    },
+    {
+        "companyName": "Goddest project #3",
+        "firstPercent": "90%",
+        "secondPercent": "50%",
+        "companyPhoto": "./img/companySubs2.png"
+    },
+    {
+        "companyName": "Goddest project #4",
+        "firstPercent": "81%",
+        "secondPercent": "69%",
+        "companyPhoto": "./img/companySubs3.jpg"
+    }
+]
