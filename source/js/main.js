@@ -53,7 +53,6 @@ async function getResponse() {
 
 getResponse();
 
-
 $(".navigation__button").click(function() {
     console.log("click"); 
     $(".navigation__list__container").toggleClass("navigation__list__container--active");
