@@ -489,8 +489,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         margin-top: -30px;
         width: 100%;
         text-align: center;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+        
+    
 
     .button-container{
         justify-content: center;
@@ -580,17 +584,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         height: 100px;
     }
     .status__info__title {
-        font-size: 18px;
+        font-size: 16px;
     }
     .status__info__project-name {
-        font-size: 30px;
+        font-size: 26px;
     }
     .percentes {
-        font-size: 54px !important;
+        font-size: 50px !important;
     }
     .subtitle {
         margin-top: -10px;
-        font-size: 22px !important;
+        font-size: 16px !important;
     }
     .rocket-image {
         margin-left: -2px;
@@ -606,11 +610,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .navbar-nav{
         position: relative;
         color: #333!important;
-        top: 80px;
+        top: 110px;
         left: -20px;
         width: 120%;
         display: flex;
-        align-content: flex-end;
+        align-items: flex-end;
     }
     .nav-link{
         color:#333 !important;
@@ -621,11 +625,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
 
     .results__title {
-        font-size: 32px;
+        font-size: 28px;
     }
     .results__subtitle {
         margin-top: 7%;
-        font-size: 20px;
+        font-size: 16px;
     }
     .main {
         height: 200px;
@@ -633,9 +637,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .mini-rocket {
         top: -150%;
     }
+    .stats__photo {
+        width: 300px;
+        margin-left: -8%;
+    }
 
+    .status__info__project-name {
+        font-size: 22px;
+    }
+    .results__text {
+        margin-top: 72px;
+    }
     
 }
-
 
 
