@@ -35,20 +35,37 @@ async function getResponse() {
         });
     }
     function setCarousel(queue) {
-        var all = $(".carousel-span").map(item => {
-            console.log(item);
-        }).get();
+        $(".carousel-span").removeClass("active");
+        switch (queue) {
+            case 0:
+                $("#carousel-span-1").addClass("active")
+                break;
+            case 1:
+                $("#carousel-span-2").addClass("active")
+                break;
+            case 2:
+                $("#carousel-span-3").addClass("active")
+                break;
+            case 3:
+                $("#carousel-span-4").addClass("active")
+                break;
+        
+            default:
+                break;
+        }
     }
 
     $(".prev-button").click(function() { 
         queue === 0 ? queue = 3 : queue -= 1;
         const { companyName, firstPercent, secondPercent, companyPhoto } = content[queue];
         setData(companyName, firstPercent, secondPercent, companyPhoto);
+        setCarousel(queue);
     });
     $(".next-button").click(function() { 
         queue === 3 ? queue = 0 : queue += 1;
         const { companyName, firstPercent, secondPercent, companyPhoto } = content[queue];
         setData(companyName, firstPercent, secondPercent, companyPhoto);
+        setCarousel(queue);
     });
 }
 
