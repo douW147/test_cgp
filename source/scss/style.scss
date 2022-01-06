@@ -101,7 +101,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .mini-rocket{
     position: relative;
     top: -513px;
-    left: 800px;
+    left: 50%;
+    width: 45%;
 }
 
 .navbar{
@@ -319,6 +320,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .results__button{
         margin-top: 5%;
     }
+    .mini-rocket {
+        left: 540px;
+        width: 50%;
+    }
 }
 
 @media (max-width: 1290px) {
@@ -360,6 +365,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .status__info__percentes {
         margin-top: 0;
     }
+    .mini-rocket{
+        width: 40%;
+        left: 55%;
+    }
 }
 
 @media (max-width: 1130px) {
@@ -386,7 +395,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .results__button{
         // margin-top: 10%;
     }
-   
+   .mini-rocket{
+    top: -120%;
+    width: 35%;
+   }
 }
 
 @media (max-width: 991.2px) {
@@ -427,6 +439,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding-top: 60px;
         height: 450px;
         margin-top: 10px;
+    }
+    .mini-rocket {
+        top: -120%;
+        width: 45%;
+        left: 46%;
     }
     
 }
@@ -507,6 +524,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .notebook-photo {
         width: 300px;
     }
+    .mini-rocket {
+        top: -280px;
+    }
 }
 
 
@@ -577,6 +597,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         margin-top: 7%;
         width: 75%;
     }
+    .mini-rocket {
+        top: -230px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -606,6 +629,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
     .main {
         height: 200px;
+    }
+    .mini-rocket {
+        top: -150%;
     }
 
     
