@@ -390,6 +390,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000;
 }
 
+.--bold {
+  font-weight: bold;
+}
+
 @media (max-width: 1290px) {
   .results__subtitle {
     margin-top: 50px;
@@ -757,7 +761,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .main {
-    height: 200px;
+    height: 100px;
   }
 
   .mini-rocket {
