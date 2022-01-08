@@ -3,6 +3,8 @@ async function getResponse() {
 
     let response = await fetch("./data.json");
     let content = await response.json();
+    const companyPhotos = [content[0].companyPhoto, content[1].companyPhoto,
+                            content[2].companyPhoto, content[3].companyPhoto]
     function setData (title, firstPercent, secondPercent, photo) {
         animateText(".status__info__project-name", title);
         animateText("#firstPercent", firstPercent);
@@ -39,14 +41,14 @@ async function getResponse() {
 
     $(".prev-button").click(function() { 
         queue === 0 ? queue = 3 : queue -= 1;
-        const { companyName, firstPercent, secondPercent, companyPhoto } = content[queue];
-        setData(companyName, firstPercent, secondPercent, companyPhoto);
+        const { companyName, firstPercent, secondPercent } = content[queue];
+        setData(companyName, firstPercent, secondPercent, companyPhotos[queue]);
         setCarousel(queue);
     });
     $(".next-button").click(function() { 
         queue === 3 ? queue = 0 : queue += 1;
-        const { companyName, firstPercent, secondPercent, companyPhoto } = content[queue];
-        setData(companyName, firstPercent, secondPercent, companyPhoto);
+        const { companyName, firstPercent, secondPercent } = content[queue];
+        setData(companyName, firstPercent, secondPercent, companyPhotos[queue]);
         setCarousel(queue);
     });
 }
