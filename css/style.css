@@ -574,6 +574,7 @@ h1, h2, h3, h4, h5, h6 {
         -ms-flex-pack: end;
             justify-content: flex-end;
     width: 20px;
+    background: none;
   }
   .navigation__button .navigation__button__icon {
     color: #333;
