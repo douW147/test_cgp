@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 .navigation__list .navigation__list__link {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   color: #fff;
 }
 
@@ -732,10 +732,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -35px;
   }
 
-  .results__title {
-    font-size: 36px;
-  }
-
   .mobile-toggler {
     position: relative;
     right: -80%;
@@ -773,12 +769,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .results__title {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .results__subtitle {
-    margin-top: 7%;
-    font-size: 16px;
+    margin-top: 17%;
+    font-size: 19px;
   }
 
   .bottom-photos {
